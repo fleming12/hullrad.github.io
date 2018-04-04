@@ -6,4 +6,4 @@ To run HullRad on your local machine as a Python script, download the file HullR
 
 If you publish work that uses HullRad please cite the following reference: Fleming, P.J. and Fleming, K. G., HullRad: Fast Calculations of Folded and Disordered Protein and Nucleic Acid Hydrodynamic Properties. Biophysical Journal, Volume 114, Issue 4, p856–869, 27 February 2018. 
 
-Download fleming_bj_2018.pdf for a PDF copy of the paper.
+Download fleming_bj_2018.pdf for a PDF copy of the paper describing the HullRad algorithm.
