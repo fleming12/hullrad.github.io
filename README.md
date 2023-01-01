@@ -4,7 +4,7 @@ A webserver to run HullRad on your macromolecule can be found at (http://52.14.7
 
 To run HullRad on your local machine as a Python script, download the file HullRadV9.py and read the header for instructions on installing the necessary libraries. 
 
-HullRadSAS is similar to the original HullRad but it also provides the amount of two types of macromolecular hydration, shell and entrained.
+HullRadSAS is similar to the original HullRad but it also provides the amount of two types of macromolecular hydration, shell and entrained. Version 1.1 fixes a bug that overestimated Dmax and affected rotational diffusion calculations.
 
 If you publish work that uses HullRad please cite one of the following references: 
 
