@@ -12,6 +12,7 @@ Fleming, P.J. and Fleming, K. G., HullRad: Fast Calculations of Folded and Disor
 
 Fleming, P.J., Correia, J.J, and Fleming, K.G., Revisiting Macromolecular Hydration with HullRadSAS.
 (2023) Eur. Biophys. J. Online Jan 5. https://doi.org/10.1007/s00249-022-01627-8
+
 Note: The EBJ paper also describes updates to the original HullRad incorporated in HullRadV9.
 
 Download fleming_bj_2018.pdf for a PDF copy of the paper describing the original HullRad algorithm.
