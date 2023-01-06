@@ -10,7 +10,9 @@ If you publish work that uses HullRad please cite one of the following reference
 
 Fleming, P.J. and Fleming, K. G., HullRad: Fast Calculations of Folded and Disordered Protein and Nucleic Acid Hydrodynamic Properties. Biophysical Journal, Volume 114, Issue 4, p856–869, 27 February 2018. 
 
-Fleming, P.J., Correia, J.J, and Fleming, K.G., Revisiting Macromolecular Hydration with HullRadSAS. bioRxiv,  www.biorxiv.org/content/10.1101/2022.10.20.513022v1
+Fleming, P.J., Correia, J.J, and Fleming, K.G., Revisiting Macromolecular Hydration with HullRadSAS.
+(2023) Eur. Biophys. J. Online Jan 5. https://doi.org/10.1007/s00249-022-01627-8
+Note: The EBJ paper also describes updates to the original HullRad incorporated in HullRadV9.
 
 Download fleming_bj_2018.pdf for a PDF copy of the paper describing the original HullRad algorithm.
 
