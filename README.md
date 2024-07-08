@@ -18,6 +18,8 @@ Note: The EBJ paper also describes updates to the original HullRad incorporated 
 Fleming, P.J., Correia, J.J, and Fleming, K.G., The Molecular Basis for Hydrodynamic Properties of PEGylated Human Serum Albumin.
 Biophysical Journal, Online June 21, 2024  DOI: 10.1016/j.bpj.2024.05.019
 
+Note: The above BJ paper describes the addition of non-ideality constants to the output of HullRad.
+
 Download fleming_bj_2018.pdf for a PDF copy of the paper describing the original HullRad algorithm.
 
 Download the Python script, Display_hull.py (Python2) or Display_Hull3.py (Python3), to draw convex hull around a displayed structure in PyMOL.
