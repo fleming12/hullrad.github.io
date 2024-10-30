@@ -2,9 +2,9 @@
 HullRad is an algorithm for calculating hydrodynamic properties of a macromolecule from a structure file.
 A webserver to run HullRad on your macromolecule can be found at (http://52.14.70.9/).
 
-To run HullRad on your local machine as a Python script, download the file HullRadV10.py and read the header for instructions on installing the necessary libraries. 
+To run HullRad on your local machine as a Python script, download the file HullRadV10.1.py and read the header for instructions on installing the necessary libraries. 
 
-HullRadSAS is similar to the original HullRad but it also provides the amount of two types of macromolecular hydration, shell and entrained. The current version is HullRadSASV3.py.
+HullRadSAS is similar to the original HullRad but it also provides the amount of two types of macromolecular hydration, shell and entrained. The current version is HullRadSASV3.1.py.
 
 If you publish work that uses HullRad please cite one of the following references: 
 
