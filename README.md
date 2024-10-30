@@ -26,6 +26,10 @@ Download the Python script, Display_hull.py (Python2) or Display_Hull3.py (Pytho
 
 Other scripts to run HullRad in batch mode are available at the HullRad website.
 
+
+
+Release Notes:
+
 Version 5 (The program as described in Fleming and Fleming, BJ, 2018)
 Proteins
 Nucleic Acids
