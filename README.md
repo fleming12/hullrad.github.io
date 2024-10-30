@@ -25,3 +25,50 @@ Download fleming_bj_2018.pdf for a PDF copy of the paper describing the original
 Download the Python script, Display_hull.py (Python2) or Display_Hull3.py (Python3), to draw convex hull around a displayed structure in PyMOL.
 
 Other scripts to run HullRad in batch mode are available at the HullRad website.
+
+Version 5 (The program as described in Fleming and Fleming, BJ, 2018)
+Proteins
+Nucleic Acids
+
+Version 6 (November, 2019)
+Includes many saccharides for glycosylation
+Rg is calculated from all atom model, not reduced model as in version 5
+Includes option to use numpy and scipy
+Asphericity is calculated from gyration tensor (requires numpy)
+Option to use either qconvex from qhull or ConvexHull from scipy
+       (Many thanks to Chad Brautigam for implementation)
+
+Version 7 (July, 2020)
+Ported to Python 3 (Python 2 edition of version 7 also available)
+Addition of chain ID
+Includes several detergents for analysis of protein/detergent micelles.
+        (Note that hydrodynamic calculations of detergents
+       is sensitive to partial specific volume of the detergent micelle.
+       Literature values of detergent partial specific volumes are not consistent.
+       Solution conditions may also affect partial specific volumes - read the notes in the
+       code and use with caution.)
+Calculation of intrinsic viscosity was removed.
+       The original implementation was appropriate only for very sperical particles.
+       This parameter is sensitive to the model used for axial ratio determination and needs further development.
+
+Version 8 (November, 2021)
+Accepts mmCIF file format as well as PDB format
+Additional error checking for missing backbone atoms
+
+Version 8.1 (March, 2022)
+Fixed bugs introduced with mmCIF reader
+
+Version 9 (October, 2022)
+Addition of Intrinsic Viscosity
+Addition of Non-idealtiy Constant
+
+Version 10 (July, 2024)
+Update Non-idealtiy Constant equation for ks (See DOI:https://doi.org/10.1016/j.bpj.2024.05.019)
+Note that the sedimentation non-ideality constant (ks) is now calculated using a modified version of the Rowe equation and gives a different (corrected) value compared to HullRad Version 9
+Add kd and second virial coeficient
+
+Version 10.1 (Oct, 2024)
+Update nucleic acid partial specific volumes.
+Many thanks to Brad Chaires and Rob Monsen for pointing out that experimentally the partial specific volumes of all nucleic acids is approximately 0.55.
+This is different from that calculated from structure using Voronoi volumes, which HullRad previously used.
+Curiously, for proteins the experimentally determined partial specific volumes agree pretty well with those calculated from strucucture using Voronoi volumes. Why this doesn't work for nucleic acids is a mystery.
