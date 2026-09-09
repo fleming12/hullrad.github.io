@@ -76,3 +76,8 @@ Update nucleic acid partial specific volumes.
 Many thanks to Brad Chaires and Rob Monsen for pointing out that experimentally the partial specific volumes of all nucleic acids is approximately 0.55.
 This is different from that calculated from structure using Voronoi volumes, which HullRad previously used.
 Curiously, for proteins the experimentally determined partial specific volumes agree pretty well with those calculated from strucucture using Voronoi volumes. Why this doesn't work for nucleic acids is a mystery.
+
+Version 10.2 (Sep, 2026)
+Numpy started returning a complex number for the gyration tensor. HullRad wants only the real part.
+Fixed for Asphericity.
+
